@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+/* Utility Classes */
+.flex {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Navbar */
+.navbar {
+  height: 110px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 102px;
+  background-color: aqua;
+}
+
+.nav__ul li {
+  padding: 0 27.35px;
+}
+
+.nav__ul li a {
+  font-weight: 500;
+}
+
+.ham {
+  display: none;
+  visibility: hidden;
+}
+
+/* Mobile Navbar */
+.mobile__nav {
+  position: absolute;
+  right: 0;
+  padding: 50px;
+}
+
+.mobile__nav-ul li {
+  padding: 10px 0;
+}
