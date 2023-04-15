@@ -1,0 +1,22 @@
+.project__section-wrapper {
+  max-width: 1180px;
+  margin-inline: auto;
+  padding: 0 106px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 164px;
+}
+
+.project__heading {
+  border-bottom: 2px solid black;
+  padding-bottom: 27px;
+  width: 100%;
+}
+
+.catalogue__wrapper {
+  display: flex;
+  column-gap: 14px;
+  margin-top: 152px;
+}
