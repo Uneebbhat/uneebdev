@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 body {
@@ -23,11 +24,15 @@ a {
 
 /* Navbar */
 .navbar {
+  position: relative;
   height: 110px;
   justify-content: space-between;
   align-items: center;
-  padding: 0 102px;
-  background-color: aqua;
+  padding: 0 106px;
+  max-width: 1180px;
+  margin-inline: auto;
+  background-color: #f5f5f5;
+  z-index: 99999;
 }
 
 .nav__ul li {
@@ -36,20 +41,48 @@ a {
 
 .nav__ul li a {
   font-weight: 500;
+  font-size: 1.554rem;
+}
+
+@media screen and (max-width: 970px) {
+  .navbar {
+    padding: 0 20px;
+  }
+
+  .nav__links {
+    display: none;
+  }
+
+  .ham {
+    display: block !important;
+    visibility: visible !important;
+  }
 }
 
 .ham {
   display: none;
   visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.ham img {
+  max-width: 80%;
 }
 
 /* Mobile Navbar */
 .mobile__nav {
   position: absolute;
+  top: -1000px;
   right: 0;
-  padding: 50px;
+  padding: 50px 0;
+  background-color: #f8f8f8;
+  height: 74vh;
+  width: 100%;
+  text-align: center;
+  transition: all 0.5s ease;
 }
 
 .mobile__nav-ul li {
-  padding: 10px 0;
+  padding: 50px 0;
+  font-size: 30px;
 }
