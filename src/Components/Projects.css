@@ -17,6 +17,36 @@
 
 .catalogue__wrapper {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   column-gap: 14px;
-  margin-top: 152px;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 970px) {
+  .project__section-wrapper {
+    padding: 0 20px;
+  }
+
+  .catalogue__wrapper {
+    flex-wrap: wrap;
+  }
+
+  .project__one,
+  .project__two {
+    margin-bottom: 40px;
+  }
+
+  .catalogue__wrapper img {
+    max-width: 100%;
+  }
+}
+
+.catalogue__wrapper h2 {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.catalogue__wrapper img {
+  max-width: 100%;
 }

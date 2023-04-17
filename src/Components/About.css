@@ -1,0 +1,25 @@
+.about__section-wrapper {
+  max-width: 1180px;
+  margin-inline: auto;
+  margin-top: 164px;
+}
+
+.about__heading {
+  border-bottom: 2px solid black;
+  padding-bottom: 27px;
+  width: 100%;
+}
+
+.about__details {
+  margin-top: 80px;
+}
+
+.about__heading h2 {
+  font-size: 2.816rem;
+}
+
+.about__details p {
+  max-width: 500px;
+  font-size: 1.875rem;
+  line-height: 36px;
+}
