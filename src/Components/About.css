@@ -2,6 +2,7 @@
   max-width: 1180px;
   margin-inline: auto;
   margin-top: 164px;
+  padding: 0 106px;
 }
 
 .about__heading {
@@ -16,10 +17,18 @@
 
 .about__heading h2 {
   font-size: 2.816rem;
+  font-weight: 500;
 }
 
 .about__details p {
-  max-width: 500px;
+  /* max-width: 500px; */
   font-size: 1.875rem;
   line-height: 36px;
+  text-align: center;
+}
+
+@media screen and (max-width: 970px) {
+  .about__section-wrapper {
+    padding: 0 20px;
+  }
 }

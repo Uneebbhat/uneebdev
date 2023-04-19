@@ -1,0 +1,9 @@
+.alert__section-wrapper {
+  max-width: 1180px;
+  margin-inline: auto;
+  padding: 30px 106px;
+  text-align: center;
+  background-color: #87cefa;
+  color: #282828;
+  font-size: 20px;
+}

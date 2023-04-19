@@ -1,0 +1,12 @@
+.footer__section-wrapper {
+  max-width: 1180px;
+  margin-inline: auto;
+  padding: 0 106px;
+  margin-top: 164px;
+}
+
+@media screen and (max-width: 970px) {
+  .footer__section-wrapper {
+    padding: 0 20px;
+  }
+}
