@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Uneebbhat/portfolio.git/static/css/main.77024f1c.css",
+    "main.js": "/Uneebbhat/portfolio.git/static/js/main.b0cd9a46.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Uneebbhat/portfolio.git/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/Uneebbhat/portfolio.git/index.html",
+    "main.77024f1c.css.map": "/Uneebbhat/portfolio.git/static/css/main.77024f1c.css.map",
+    "main.b0cd9a46.js.map": "/Uneebbhat/portfolio.git/static/js/main.b0cd9a46.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Uneebbhat/portfolio.git/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77024f1c.css",
+    "static/js/main.b0cd9a46.js"
+  ]
+}
