@@ -1,9 +1,15 @@
 .alert__section-wrapper {
   max-width: 1180px;
   margin-inline: auto;
-  padding: 30px 106px;
+  padding: 30px 20px;
   text-align: center;
   background-color: #87cefa;
   color: #282828;
   font-size: 20px;
+}
+
+@media screen and (min-width: 970px) {
+  .alert__section-wrapper {
+    padding: 30px 106px;
+  }
 }
