@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
+// import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 export default function Navbar() {
   const [mobileNavTop, setMobileNavTop] = useState(-1000);
@@ -40,14 +42,20 @@ export default function Navbar() {
         {
           <div className="nav__links">
             <ul className="nav__ul flex">
+              {/* <li>
+                <Link to="projects" smooth={true} duration={500}>
+                  Projects
+                </Link>
+              </li> */}
               <li>
-                <a href="/">Work</a>
+                <Link to="about" smooth={true} duration={500}>
+                  About
+                </Link>
               </li>
               <li>
-                <a href="/">About</a>
-              </li>
-              <li>
-                <a href="/">Contact</a>
+                <Link to="contact" smooth={true} duration={500}>
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>
@@ -63,13 +71,14 @@ export default function Navbar() {
           <div className="mobile__nav-links">
             <ul className="mobile__nav-ul">
               <li>
-                <a href="/">Work</a>
+                <Link to="about" smooth={true} duration={500}>
+                  About
+                </Link>
               </li>
               <li>
-                <a href="/">About</a>
-              </li>
-              <li>
-                <a href="/">Contact</a>
+                <Link to="contact" smooth={true} duration={500}>
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>

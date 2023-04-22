@@ -11,7 +11,11 @@ export default function HeroSection() {
               I’m Uneeb Bhatti, a UI/UX designer & Front-end Developer based in
               Pakistan. Available for freelance & collaborations.
             </h1>
-            <a href="https://calendly.com/uneebdev/30min" target="_blank">
+            <a
+              href="https://calendly.com/uneebdev/30min"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className="btn">Book a call</button>
             </a>
           </div>

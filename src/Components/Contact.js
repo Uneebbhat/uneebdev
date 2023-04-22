@@ -17,7 +17,11 @@ export default function Contact() {
               within 24 hrs! <br /> <br />
               <p>uneebbhatti3@gmail.com</p>
               <br />
-              <a href="https://calendly.com/uneebdev/30min" target="_blank">
+              <a
+                href="https://calendly.com/uneebdev/30min"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="btn">Book a call</button>
               </a>
             </p>

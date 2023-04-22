@@ -24,8 +24,10 @@ a {
 
 /* Navbar */
 .navbar {
+  position: fixed;
   position: relative;
   height: 110px;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   padding: 0 106px;
@@ -39,9 +41,10 @@ a {
   padding: 0 27.35px;
 }
 
-.nav__ul li a {
+.nav__ul li {
   font-weight: 500;
   font-size: 1.554rem;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 970px) {
